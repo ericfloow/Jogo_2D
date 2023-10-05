@@ -19,7 +19,7 @@ public class ItemCollector : MonoBehaviour
             collectionSoundEffect.Play();
             Destroy(collision.gameObject);
             kiwis++;
-            kiwisText.text = "Kiwis:" + kiwis;
+            kiwisText.text = "" + kiwis;
         }
     }
 }
